@@ -1,0 +1,469 @@
+*
+.hero {
+    background: url('Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)11.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .er{
+    width: 100%;
+    height: 80px;
+
+  }
+
+
+  .btn-orange {
+    background-color: #ff4c00;
+    color: white;
+    border: none;
+  }
+
+  .btn-orange:hover {
+    background-color: #e04300;
+  }
+
+  .navbar-brand span {
+    font-weight: bold;
+  }
+
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #navbarNav{
+    margin-right: 100px;
+    font-size: 20px;
+  }
+  .fa-magnifying-glass{
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    position: relative;
+    left: 200px;
+  }
+  .dance-tour {
+    background-color: #ff6600; /* orange background */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+  }
+
+  .dance-tour::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(black 1px, transparent 1px);
+    background-size: 10px 10px;
+    opacity: 0.6;
+  }
+
+  .dance-tour h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .dance-tour p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .tour-card {
+    background-color: #333;
+    color: white;
+    border: none;
+    text-align: center;
+  }
+
+  .tour-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .tour-card h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    letter-spacing: 1px;
+  }
+
+  .tour-card p {
+    font-size: 14px;
+    padding: 0 10px 20px;
+  }
+
+  @media (max-width: 768px) {
+    .dance-tour h2 {
+      font-size: 28px;
+    }
+
+    .tour-card h5 {
+      font-size: 16px;
+    }
+  }
+  .pricing-section {
+    padding: 60px 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pricing-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #dee2e6;
+}
+
+.pricing-header p {
+    font-size: 1.1rem;
+    color: #dee2e6;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    background-color: #ff4c00;
+}
+
+.pricing-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #dee2e6;
+}
+
+.pricing-card p {
+    color: #6c757d;
+    margin-bottom: 25px;
+    color: #dee2e6;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    border: 2px solid;
+    background-color: #333;
+}
+
+.dance-section {
+    font-family: 'Arial', sans-serif;
+}
+
+.dance-card {
+    padding: 80px 40px;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+.color-card {
+    background-color: #6c757d; /* Gray background */
+}
+
+.image-card {
+    background-image: url('side.png');
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dance-content {
+    position: relative;
+    z-index: 1;
+}
+
+.dance-card h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dance-card p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.read-more-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: white;
+    color: #333;
+}
+
+@media (max-width: 767.98px) 
+     {
+        
+    }
+    .content-side {
+      background-color:#ff4c00 ; /* Exact light gray from your image */
+      height: 900px;
+      display: flex;
+      align-items: center;
+      width: 50%;
+      margin-left:px;
+  }
+  
+  .content-box {
+      padding: 0 15%;
+  }
+  
+  .main-heading {
+      font-size: 3.5rem;
+      font-weight: 700;
+      line-height: 1;
+      margin-bottom: 1.5rem;
+  }
+  
+  .description {
+      font-size: 1rem;
+      color: #ffffff;
+      margin-bottom: 2.5rem;
+      line-height: 1.6;
+  }
+  
+  .read-more-btn {
+      background-color: #000;
+      color: white;
+      padding: 10px 30px;
+      border: none;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+  }
+  
+  @media (max-width: 992px) {
+      .content-side, .image-side {
+          height: auto;
+          min-height: 50vh;
+          
+      }
+      
+      .content-box {
+          padding: 50px 15%;
+      }
+      
+      .main-heading {
+          font-size: 2.5rem;
+      }
+  }
+  
+  @media (max-width: 576px) {
+      .main-heading {
+          font-size: 2rem;
+      }
+      
+      .content-box {
+          padding: 40px 10%;
+      }
+  }
+  .main-heading{
+    color: #dee2e6;
+  }
+  .image-side img{
+
+  height: 900px;
+    width: 100%;
+  }
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .mm {
+    min-height: 100vh;
+  }
+  
+  .content-box {
+    max-width: 400px;
+  }
+  .stats-section {
+    padding: 80px 0;
+    background-color: rgb(44,44,44);
+    text-align: center;
+}
+.stats-section h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: white;
+}
+.stats-section p {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.stat-item {
+    padding: 20px;
+}
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.stat-label {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #0d6efd;
+    margin: 30px auto;
+}  
+.testimonial-section {
+  padding: 80px 0;
+  background-color: #ff4c00;
+  text-align: center;
+}
+.testimonial-content {
+  max-width: 600px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #ffffff;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.testimonial-author {
+  font-weight: bold;
+  color: #fffefe;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #f0f0f0;
+}
+.subscribe-section {
+  padding: 80px 0;
+  background-color: #000;
+  text-align: center;
+}
+.subscribe-section h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+ color: white;
+}
+.subscribe-section p {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divider {
+  width: 80px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 30px auto;
+}
+.subscribe-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.form-control {
+  height: 50px;
+  border-radius: 0;
+  border: 1px solid #ced4da;
+}
+.btn-subscribe {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 0;
+  height: 50px;
+  text-transform: uppercase;
+}
+.btn-subscribe:hover {
+  background-color: #0b5ed7;
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 60px 0 30px;
+}
+.footer-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #212529;
+}
+.footer-about {
+  max-width: 400px;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+.footer-heading {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #212529;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-links a {
+  color: #6c757d;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #0d6efd;
+}
+hr {
+  margin: 30px 0;
+  border-color: rgba(0,0,0,0.1);
+}
