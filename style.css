@@ -165,8 +165,8 @@
     margin: 20px 0;
     border: 2px solid;
     background-color: #333;
+    color: white;
 }
-
 .dance-section {
     font-family: 'Arial', sans-serif;
 }
@@ -467,3 +467,9 @@ hr {
   margin: 30px 0;
   border-color: rgba(0,0,0,0.1);
 }
+.bn{
+width: 20%;
+font-style: italic;
+}
+
+
